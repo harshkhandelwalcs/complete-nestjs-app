@@ -1,6 +1,4 @@
 ## Description
-
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 It is  a complete nest app and in this I have implemented the scenarios listed below:
  - Routing
  - Route protection using guards
