@@ -1,0 +1,41 @@
+### create a new user
+POST http://localhost:3000/auth/signup
+content-type: application/json
+
+{
+ "email":"hkcs8@hkcs.com",
+ "password":"hkcs8"
+}
+
+### sign in user
+POST http://localhost:3000/auth/signin
+content-type: application/json
+
+{
+ "email":"hkcs8@hkcs.com",
+ "password":"hkcs8"
+}
+
+### Get the current signed in user
+GET http://localhost:3000/auth/whoami
+
+### signout user
+POST  http://localhost:3000/auth/signout
+
+### Find a particular user with a given Id
+GET http://localhost:3000/auth/3
+
+### Find all users with a given email
+GET http://localhost:3000/auth?email=asdfsdsds@addd.com
+
+### Delete a user with given ID
+DELETE http://localhost:3000/auth/1
+
+### Update a User
+PATCH http://localhost:3000/auth/22222
+content-type:application/json
+
+{
+    "password":"hkcs1995"
+}
+
