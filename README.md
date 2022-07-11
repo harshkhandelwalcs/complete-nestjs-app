@@ -1,6 +1,14 @@
 ## Description
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+It is  a complete nest app and in this I have implemented the scenarios listed below:
+ - Routing
+ - Route protection using guards
+ - Setup different environments
+ - User authentican and authorization using custom middleware's , interceptors and decorators etc.
+ - Handle multiple user role using guards.
+ - Used sqlite using TypeORM module.
+ - Follow best practices in Nest.
 
 ## Installation
 
